@@ -1,6 +1,12 @@
-# PROJECT-STRUCTURE.md — CodePilot Agent
+# PROJECT-STRUCTURE.md — codeAgent
 
-*Day 2 deliverable — complete folder structure for the remaining build days. This is the map Days 3–10 will place new code into; no restructuring should be needed later without a strong reason.*
+*Originally a Day 2 deliverable; updated Day 3 to reflect actual implementation status. This is the map Days 3–10 place new code into; no restructuring should happen without a strong reason.*
+
+## Implementation Status (updated Day 3)
+
+✅ **Built and verified:** `server/src/store/sessionStore.js`, `server/src/utils/fileTree.js`, `server/src/services/ingestionService.js`, `server/src/routes/repo.js`, `client/src/api/index.js`, `client/src/context/SessionContext.jsx`, `client/src/components/RepoInput.jsx`
+
+⬜ **Still planned (Day 4+):** everything under `server/src/services/` except `ingestionService.js`, all remaining `routes/*.js` files, all remaining `client/src/components/*` screens, `llmClient.js`
 
 ---
 
